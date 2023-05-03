@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/media_query.css">
+</head>
+
+<body>
+  <!-- navigation -->
+  <nav class="padding">
+    <div class="nav-container">
+      <div class="left-nav">
+        <div class="overlay"></div>
+
+        <div class="menu">
+          <img src="images/icon-menu.svg" alt="">
+        </div>
+
+        <div class="logo">
+          <img src="images/logo.svg" alt="">
+        </div>
+
+        <div class="close-btn">
+          <img src="images/icon-close.svg" alt="">
+        </div>
+
+        <ul class="nav-lists">
+          <li class="nav-list">
+            <a class="active" href="#collections">Collections</a>
+          </li>
+          <li class="nav-list">
+            <a href="#men">Men</a>
+          </li>
+          <li class="nav-list">
+            <a href="#women">Women</a>
+          </li>
+          <li class="nav-list">
+            <a href="#about">About</a>
+          </li>
+          <li class="nav-list">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="profile-container">
+        <div class="card-icon">
+          <img src="images/icon-cart.svg" alt="cart">
+          <p class="order-number">0</p>
+        </div>
+        <div class="profile">
+          <img src="images/image-avatar.png" alt="avator">
+        </div>
+      </div>
+
+      <div class="cart-card">
+        <p class="cart-title">Cart</p>
+        <div class="cart-desc">
+          <p class="empty-text">Your cart is empty.</p>
+          <div class="cart-display">
+            <!-- <div class="cart-order">
+              <div class="order-container">
+                <div class="orders">
+                  <div class="order-img">
+                    <img src="images/image-product-1.jpg" alt="">
+                  </div>
+                  <div class="order-desc">
+                    <p class="order-title">Fall Limited Edition Sneakers</p>
+                    <p class="order-total">
+                      $125.00 × 3
+                      <span class="order-amount">$375.00</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="delete-btn">
+                  <img src="images/icon-delete.svg" alt="">
+                </div>
+              </div>
+              <button class="checkout-btn">Checkout</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- checkout display -->
+  <div class="checkout">
+    <div class="coverlay"></div>
+
+    <div class="checkout-product">
+      <div class="product-display">
+        <div class="cmain-product">
+          <img src="images/image-product-1.jpg" alt="shoe">
+          <div class="cprev-btn">
+            <img src="images/icon-previous.svg" alt="">
+          </div>
+          <div class="cnext-btn">
+            <img src="images/icon-next.svg" alt="">
+          </div>
+          <div class="cclose-btn">
+            <img src="images/icon-close.svg" alt="">
+          </div>
+        </div>
+        <div class="cslider-product">
+          <div class="cproduct active">
+            <img src="images/image-product-1.jpg" alt="shoe">
+          </div>
+          <div class="cproduct">
+            <img src="images/image-product-2.jpg" alt="shoe">
+          </div>
+          <div class="cproduct">
+            <img src="images/image-product-3.jpg" alt="shoe">
+          </div>
+          <div class="cproduct">
+            <img src="images/image-product-4.jpg" alt="shoe">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- main section -->
+  <main class="hero-section padding">
+    <div class="left-side-products">
+      <div class="main-product">
+        <img src="images/image-product-1.jpg" alt="shoe">
+        <div class="prev-btn">
+          <img src="images/icon-previous.svg" alt="">
+        </div>
+        <div class="next-btn">
+          <img src="images/icon-next.svg" alt="">
+        </div>
+      </div>
+      <div class="slider">
+        <div class="product active">
+          <img src="images/image-product-1.jpg" alt="shoe1">
+        </div>
+        <div class="product">
+          <img src="images/image-product-2.jpg" alt="shoe2">
+        </div>
+        <div class="product">
+          <img src="images/image-product-3.jpg" alt="shoe3">
+        </div>
+        <div class="product">
+          <img src="images/image-product-4.jpg" alt="shoe4">
+        </div>
+      </div>
+    </div>
+    <div class="right-side-details">
+      <p class="decorate-text">sneaker company</p>
+      <h1 class="special-text">Fall Limited Edition <br> Sneakers</h1>
+      <p class="descriptions">
+        These low-profile sneakers are your perfect casual wear companion. Featuring a
+        durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </p>
+      <div class="discount">
+        <h3 class="discount-price">
+          $125.00
+          <span class="discount-per">50%</span>
+        </h3>
+        <h3 class="org-price">$250.00</h3>
+      </div>
+      <div class="cart-btn-container">
+        <div class="amount-btn">
+          <div class="minus-icon">
+            <img src="images/icon-minus.svg" alt="minus">
+          </div>
+          <span class="amount">0</span>
+          <div class="plus-icon">
+            <img src="images/icon-plus.svg" alt="plus">
+          </div>
+        </div>
+        <button class="cart-btn">
+          <div class="cart-img">
+            <img src="images/icon-cart.svg" alt="card">
+          </div>
+          <p class="cart-title">Add to cart</p>
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- footer -->
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Asaki Hugo</a>.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
